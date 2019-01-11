@@ -25,7 +25,7 @@ import cn.java.service.AdminService;
  * Description: <br/>
  * Date: 下午5:24:59 <br/>
  * 
- * @author 丁鹏
+ * @author 张贵云
  * @version
  * @see
  */
@@ -39,7 +39,7 @@ public class AdminController {
      * 
      * Description: 后台登录方法<br/>
      *
-     * @author 丁鹏
+     * @author 张贵云
      * @param username
      * @param password
      * @return
@@ -55,7 +55,7 @@ public class AdminController {
      * 
      * Description: 获取导航栏信息<br/>
      *
-     * @author 丁鹏
+     * @author 张贵云
      * @return
      */
     @RequestMapping(value = "/getAllNavs.do")
@@ -74,7 +74,7 @@ public class AdminController {
      * 
      * Description: 获取admin_nav表中的分页数据<br/>
      *
-     * @author 丁鹏
+     * @author 张贵云
      * @return
      */
     @RequestMapping(value = "/getAllCaiDan.do")
@@ -87,7 +87,7 @@ public class AdminController {
      * 
      * Description: 添加菜单<br/>
      *
-     * @author 丁鹏
+     * @author 张贵云
      */
     @RequestMapping(value = "/addCaiDan.do")
     @ResponseBody
@@ -99,7 +99,7 @@ public class AdminController {
      * 
      * Description: 获取所有的一级菜单<br/>
      *
-     * @author 丁鹏
+     * @author 张贵云
      * @return
      */
     @RequestMapping(value = "/getFirstMenu.do")
@@ -112,7 +112,7 @@ public class AdminController {
      * 
      * Description: 批量删除<br/>
      *
-     * @author 丁鹏
+     * @author 张贵云
      * @param idStr
      * @return
      */
